@@ -61,12 +61,14 @@ input, button, textarea, select {
     align-items: center;
 }
 
-.header__club-img{
+.header__club-img {
+    display: flex;
+    align-items: center;
     margin-right: 6.35px;
 }   
-.header__horse{}
+.header__horse {}
 
-.header__club-name{
+.header__club-name {
     text-transform: uppercase;
     font-family: "Golos Text", sans-serif;
     font-weight: bold;
