@@ -70,7 +70,7 @@ input, button, textarea, select {
 .header__club-img {
     display: flex;
     align-items: center;
-    margin-right: 9px;
+    margin-right: 6px;
 }   
 .header__horse {}
 
@@ -96,6 +96,7 @@ input, button, textarea, select {
     font-size: 60px;
     font-family: "Merriweather", serif;
     color: #313131;
+    line-height: 4.1rem;
 }
 
 .header__center-title {
