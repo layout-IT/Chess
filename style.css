@@ -148,7 +148,7 @@ header {
 .header__sun{
     display: block;
     position: absolute;
-    top: 50px;
+    top: -50px;
     right: 132px;
     width: 660px;
     height: 660px;
