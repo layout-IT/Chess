@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 20px;
+    max-width: 1222px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: normal;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+ul, ol {
+    list-style: none; 
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%; 
+}
+
+th {
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto; 
+}
+
+input, button, textarea, select {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.header__club {
+    display: flex;
+    align-items: center;
+}
+
+.header__club-img{
+    margin-right: 6.35px;
+}   
+.header__horse{}
+
+.header__club-name{
+    text-transform: uppercase;
+    font-family: "Golos Text", sans-serif;
+    font-weight: bold;
+    font-size: 16.65px;
+    color: #595653;
+    line-height: 16px;
+}
