@@ -123,5 +123,13 @@ input, button, textarea, select {
 
 .header__button {
     font-family: "Golos Text", sans-serif;
+    box-sizing: border-box;
     font-size: 16px;
+    font-weight: medium;
+    padding: 20px 49px;
+    border : 2px solid #1F1F1F;
+    border-radius: 66px;
+    color: #1F1F1F;
+    max-width: 263px;
+    width: 100%; 
 }
