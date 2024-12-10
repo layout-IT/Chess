@@ -65,7 +65,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 26px 0 0 0 ;
-    max-width: 1222px;
+    max-width: 1366px;
     font-size: 20px;
     margin: 0 auto;
 }
@@ -171,3 +171,28 @@ header {
     width: 660px;
     height: 660px;
 }
+
+.header__city{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.header__city2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.header__chess {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+}
+
+.header__chess2 {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+}
+
