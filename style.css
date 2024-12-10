@@ -83,11 +83,16 @@ input, button, textarea, select {
     line-height: 16px;
 }
 
+.header__about {
+    max-width: 542px;
+    display: flex;
+    flex-direction: column;
+}
+
 .header__title{
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
-    max-width: 542px;
     font-size: 60px;
     font-family: "Merriweather", serif;
     color: #313131;
@@ -101,4 +106,21 @@ input, button, textarea, select {
 .header__bottom-title {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 24px;
+}
+
+.header__subtitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.header__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__button {
+    font-family: "Golos Text", sans-serif;
+    font-size: 16px;
 }
