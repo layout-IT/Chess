@@ -68,17 +68,26 @@ header {
 .header__container {
     display: flex;
     justify-content: space-between;
-    padding: 26px 0 100px 0 ;
+    padding: 26px 0 132px 0 ;
     max-width: 1366px;
     font-size: 20px;
     margin: 0 auto;
     background-image: url('img/city.png'), 
                       url('img/path.png'), 
-                      url('img/Ellipse.png'), 
-                      url('img/Group.png');
+                      url('img/chess.png'), 
+                      url('img/chess2.png'),
+                      url('img/Group.png'),
+                      url('img/Ellipse.png');
+                      
 
     background-repeat: no-repeat;
-    background-position: -126px 237px, -128px 269px, right bottom, 422px 0px;
+    background-position: -189px 266px,
+                         -190px 250px,
+                         1054px 139px,
+                         727px 246px,
+                         540px 0px,
+                         600px 0px;
+
 }
 
 .header__content {
