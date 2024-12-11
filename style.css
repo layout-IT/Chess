@@ -72,15 +72,14 @@ header {
     max-width: 1366px;
     font-size: 20px;
     margin: 0 auto;
-    /* Указываем все изображения через запятую */
     background-image: url('img/city.png'), 
                       url('img/path.png'), 
                       url('img/Ellipse.png'), 
                       url('img/Group.png');
 
-    /* Устанавливаем параметры для всех изображений */
-    background-repeat: no-repeat; /* Не повторять изображения */
-    background-position: -126px 237px, -128px 269px, right bottom, 422px 0px; /* Позиционируем каждое изображение */}
+    background-repeat: no-repeat;
+    background-position: -126px 237px, -128px 269px, right bottom, 422px 0px;
+}
 
 .header__content {
 }
