@@ -72,24 +72,40 @@ header {
     max-width: 1366px;
     font-size: 20px;
     margin: 0 auto;
-    background-image: url('img/city.png'), 
-                      url('img/path.png'), 
-                      url('img/chess.png'), 
-                      url('img/chess2.png'),
-                      url('img/Group.png'),
-                      url('img/Ellipse.png');
-                      
 
-    background-repeat: no-repeat;
-    background-position: -189px 266px,
-                         -190px 250px,
-                         1054px 139px,
-                         727px 246px,
-                         540px 0px,
-                         600px 0px;
 
 }
 
+.header__background-images {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 700px;
+    height: 700px;
+
+    background-image: url('img/city.png'), 
+    url('img/path.png'), 
+    url('img/chess.png'), 
+    url('img/chess2.png'),
+    url('img/Group.png'),
+    url('img/Ellipse.png');
+    
+
+background-repeat: no-repeat;
+/* background-position: -189px 266px,
+       -190px 250px,
+       1054px 139px,
+       727px 246px,
+       540px 0px,
+       600px 0px;
+} */
+background-position: -784px 107px,
+       -190px 250px,
+       1054px 139px,
+       727px 246px,
+       540px 0px,
+       600px 0px;
+}
 .header__content {
 }
 
