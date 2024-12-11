@@ -69,7 +69,7 @@ header {
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding: 26px 0 132px 0 ;
+    padding: 26px 20px 132px 20px ;
     max-width: 1366px;
     font-size: 20px;
     margin: 0 auto;
@@ -84,7 +84,10 @@ header {
     width: 1366px;
     height: 700px;
 
-    background-image: url('img/city.png'), 
+    background-image:
+    url('img/chess3.png'), 
+    url('img/chess4.png'), 
+    url('img/city.png'), 
     url('img/path.png'), 
     url('img/chess.png'), 
     url('img/chess2.png'),
@@ -100,12 +103,15 @@ background-repeat: no-repeat;
        540px 0px,
        600px 0px;
 } */
-background-position: -117px 268px,
-       -123px 259px,
-       1062px 163px,
-       729px 266px,
-       617px 0px,
-       675px 0px;
+background-position: 
+846px 456px,
+1228px 556px,
+    -117px 268px,
+    -123px 259px,
+    1062px 163px,
+    729px 266px,
+    617px 0px,
+    675px 0px;
 }
 .header__content {
 }
