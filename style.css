@@ -90,7 +90,7 @@ input, button, textarea, select {
 .header__background-images {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 50px;
     width: 1366px;
     height: 700px;
 
