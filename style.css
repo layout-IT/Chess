@@ -93,7 +93,6 @@ input, button, textarea, select {
     right: 50px;
     width: 1366px;
     height: 700px;
-
     background-image:
     url('img/chess3.png'), 
     url('img/chess4.png'), 
@@ -103,25 +102,16 @@ input, button, textarea, select {
     url('img/chess2.png'),
     url('img/Group.png'),
     url('img/Ellipse.png');
-    
-
-background-repeat: no-repeat;
-/* background-position: -189px 266px,
-       -190px 250px,
-       1054px 139px,
-       727px 246px,
-       540px 0px,
-       600px 0px;
-} */
-background-position: 
-846px 456px,
-1228px 556px,
-    -117px 268px,
-    -123px 259px,
-    1062px 163px,
-    729px 266px,
-    617px 0px,
-    675px 0px;
+    background-repeat: no-repeat;
+    background-position: 
+        832px 481px,
+        1236px 558px,
+        -117px 268px,
+        -123px 259px,
+        1062px 163px,
+        729px 266px,
+        617px 0px,
+        675px 0px;
 }
 .header__content {
 }
