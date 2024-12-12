@@ -12,7 +12,11 @@ html {
 }
 
 body {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,11 +58,10 @@ input, button, textarea, select {
 
 .header {
     position: relative;
-    top: 0;
-    left: 0;
     background-color: #E9DED4;
     width: 100%;
     height: 100%;
+    margin: 0 auto;
 }
 
 .header::before {
@@ -79,7 +82,7 @@ input, button, textarea, select {
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding: 26px 20px 132px 20px ;
+    padding: 26px 0 132px 72px ;
     max-width: 1366px;
     font-size: 20px;
     margin: 0 auto;
@@ -90,7 +93,7 @@ input, button, textarea, select {
 .header__background-images {
     position: absolute;
     top: 0;
-    right: 50px;
+    right: 0;
     width: 1366px;
     height: 700px;
     background-image:
@@ -188,4 +191,169 @@ input, button, textarea, select {
     width: 100%; 
 }
 
+.running-line {
+    width: 1366px;
+    height: 60px;
+    background-color: #F54932;
+    color: white;
+    font-size: 22px;
+    font-family: "Merriweather", serif;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
 
+.running-line-inner {
+    text-transform: uppercase;
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(65%); /* Начальная позиция (справа) */
+    }
+
+    100% {
+        transform: translateX(-100%); /* Конечная позиция (слева) */
+    }
+}
+
+.main {
+    max-width: 1366px;
+    width: 100%;
+    padding: 80px 72px;
+}
+
+.main__container {
+    width: 100%;
+}
+
+.main__running-line-text::after {
+    content: '•';
+    display: inline-block;
+    transform: scale(1.5);
+    margin: 0 12px;
+}
+
+.main__tournament-lecture {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+.tournament-lecture-text {
+    font-family: "Merriweather", serif;
+    font-size: 36px;
+    max-width: 764px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+
+}
+
+.red-text {
+    color: #F54932;
+    font-weight: bold;
+}
+
+.main__tournament-img {
+    max-width: 394px;
+    max-height: 250px;
+}
+
+.main__chess-session {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.main__chess-session-container {
+    max-width: 704px;
+}
+
+.main__chess-session-img {
+    max-width: 474px;
+    min-height: 527px;
+    width: 100%;
+    border : 2px solid #F54932;
+}
+
+.main__chess-session-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 47px;
+}
+
+.main__chess-session-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D0D0D0;
+    color: #313131;
+
+}
+
+
+.main__chess-session-item-text {
+    max-width: 50%;
+    width: 100%;
+    padding: 16px 16px 16px 0;
+    border-right: 1px solid #D0D0D0;
+}
+
+.main__chess-session-item-info {
+    max-width: 50%;
+    width: 100%;
+    font-weight: 600;
+    padding: 16px 16px 16px 16px;
+
+}
+
+.main__chess-session-item-info span {
+    position: relative;
+    color: black; /* Цвет текста */
+}
+
+
+
+.main__chess-session-item-info span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 2px;
+    background-color: #F54932;
+}
+
+.main__chess-session-item:first-child .main__chess-session-item-text {
+    padding-top: 0;
+}
+
+.main__chess-session-item:first-child .main__chess-session-item-info {
+    padding-top: 0;
+
+}
+
+.main__chess-session-info {
+    color: #3057A2;
+    font-family: "Golos Text", sans-serif;
+    font-size: 20px;
+}
+
+.main__chess-session-item:last-child {
+    border: none;
+}
+
+.main__chess-session-item:last-child .main__chess-session-item-text {
+    padding-bottom: 0;
+}
+
+.main__chess-session-item:last-child .main__chess-session-item-info {
+    padding-bottom: 0;
+
+}
